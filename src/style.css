@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Lobster&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+.box {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-left {
+  width: 50%;
+}
+
+.box-left-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.box-left-subTitle {
+  width: 410px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.box-right {
+  width: 50%;
+  height: 100%;
+}
+
+.box-right-top {
+  margin-top: 35px;
+  height: 50px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  box-shadow: 0px 4px 4px hsl(249, 10%, 26%);
+  color: #ffff;
+}
+
+.box-right-bottom {
+  margin-top: 15px;
+  height: 370px;
+  background-color: #ffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 2px 4px hsl(249, 10%, 26%);
+}
+
+.box-right-bottom input:first-of-type {
+  margin-top: 30px;
+}
+
+.box-right-bottom-input {
+  margin-inline: 30px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
+.box-right-bottom-input:focus {
+  border: 2px solid hsl(154, 59%, 51%);
+}
+
+.box-right-bottom-btn {
+  margin-inline: 30px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(154, 59%, 51%);
+  color: #ffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 2px hsl(154, 61%, 37%);
+  cursor: pointer;
+}
+
+.box-right-bottom-btn:hover {
+  opacity: 0.9;
+}
+
+.box-right-bottom-btn:active {
+  opacity: 0.7;
+}
+
+.box-right-bottom-text {
+  font-size: 10px;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+
+.term {
+  color: hsl(0, 100%, 74%);
+}
+
+.term:hover {
+  color: hsl(0, 96%, 49%);
+  border-bottom: 1px solid hsl(0, 70%, 53%);
+}
+
+.attribution,
+.attribution a {
+  font-size: 13px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
